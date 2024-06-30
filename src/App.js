@@ -1,9 +1,25 @@
+import Layout from "./Layout";
+import About from "./About";
+import ExperiencePage from "./ExperiencePage";
+import ProjectPage from "./ProjectPage";
+import BadLink from "./BadLink";
+
+import {Route, Routes} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Routes>
+      <Route path = "/" element = {<Layout />} >
+        <Route index element = {<About />} />
+
+        <Route path = "experience">
+          <Route index element = {<ExperiencePage />} />
+          <Route path = ":proj" element = {<ProjectPage />} />
+        </Route>
+
+        <Route path = "*" element = {<BadLink />} />
+      </Route>
+    </Routes>
   );
 }
 
