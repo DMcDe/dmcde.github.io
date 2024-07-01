@@ -1,6 +1,6 @@
 const BadLink = () => {
     return(
-        <div>This link cannot be found. Did you mistype?</div>
+        <main>This link cannot be found. Did you mistype?</main>
     );
 }
 

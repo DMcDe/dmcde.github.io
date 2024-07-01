@@ -1,6 +1,6 @@
 const ProjectPage = () => {
     return (
-        <div>Specifics on a project</div>
+        <main>Specifics on a project</main>
     );
 }
 

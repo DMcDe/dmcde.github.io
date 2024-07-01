@@ -1,6 +1,6 @@
 const ExperiencePage = () => {
     return(
-        <div>Experience/Projects Overview</div>
+        <main>Experience/Projects Overview</main>
     );
 }
 

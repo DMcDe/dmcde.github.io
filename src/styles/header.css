@@ -1,0 +1,55 @@
+.Header {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+  
+    position: fixed;
+    left: 0;
+    right: 0;
+  
+    margin: 0px;
+    padding: 0px 20px;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  
+  .header-name {
+    padding-left: 20px;
+    font-size: 40px;
+    width: 400px;
+  
+    cursor: pointer;
+  }
+  
+  .header-menu {
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  
+  .header-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    cursor: pointer;
+  
+    font-size: 20px;
+  }
+  
+  .header-button:hover{
+    font-weight: bold;
+  }
+  
+  @media (max-width: 875px) {
+    .header-name {
+      font-size: 32px;
+      width: 350px;
+    }
+  
+    .header-button{
+      font-size: 16px;
+    }
+  }

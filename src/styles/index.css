@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Inter';
-  src: local('Inter'), url(./fonts/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+  src: local('Inter'), url(../fonts/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
 }
 
 body {
   font-family: 'Inter', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(38, 38, 38);
   color: white;
   margin: 0px;
   padding: 0px;
@@ -15,15 +15,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header {
-  margin: 0px;
-  padding: 0px;
-}
-
-.Header {
-  background-color: rgb(28, 28, 28);
-  color: white;
-  margin: 0px;
+main {
+  padding: 120px 20px;
 }
 
 code {

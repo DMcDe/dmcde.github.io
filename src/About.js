@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <div>Temporary</div>
+        <main>About Page</main>
     );
 }
 
