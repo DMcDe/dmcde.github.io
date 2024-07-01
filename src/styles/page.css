@@ -1,0 +1,46 @@
+.circular-photo {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.main-text {
+    font-size: 1rem;
+    padding: 30px;
+}
+
+/*About Page*/
+.About {
+    position: absolute;
+    top: 102px;
+    bottom: 0;
+
+    margin: auto;
+    padding: 60px;
+
+    display: flex;
+    align-items: center;
+}
+
+.about-photo {
+    padding: 20px;
+    min-width: 100px;
+}
+
+@media (max-width: 700px) {
+    .About {
+        flex-direction: column;
+    }
+    
+}
+@media (min-width: 700px) {
+    .about-photo {
+        min-width: 250px;
+    }
+}
+
+@media (min-width: 950px) {
+    .about-photo {
+        min-width: 300px;
+    }
+}

@@ -1,6 +1,10 @@
 @font-face {
   font-family: 'Inter';
-  src: local('Inter'), url(../fonts/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+  src: local('Inter'), url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+}
+
+p {
+  margin: 20px 0px;
 }
 
 body {
