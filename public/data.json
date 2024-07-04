@@ -1,0 +1,114 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Data Analyst Intern",
+            "subtitle": "Wilson Sporting Goods",
+            "description": "As an intern at Wilson, I worked long and hard, toiling over many many hours.",
+            "tags": ["Internship", "Data Science", "Python", "Machine Learning"],
+            "thumbnail-src": "./assets/images/Wilson-logo.svg",
+            "img1-src": "./assets/images/wilson-connected-football.png",
+            "img2-src": null
+        },
+        {
+            "id": 2,
+            "title": "In-Game NFL Win Predictor",
+            "subtitle": "Project Lead, WSA",
+            "description": "Description",
+            "tags": ["Tags"],
+            "thumbnail-src": null,
+            "img1-src": null,
+            "img2-src": null
+        },
+        {
+            "id": 3,
+            "title": "Quantum Game Simulator",
+            "subtitle": "Research Intern",
+            "description": "Description",
+            "tags": ["Tags"],
+            "thumbnail-src": null,
+            "img1-src": null,
+            "img2-src": null
+        },
+        {
+            "id": 4,
+            "title": "QuantUM",
+            "subtitle": "Cofounder, Michigan Quantum Club",
+            "description": "Description",
+            "tags": ["Tags"],
+            "thumbnail-src": null,
+            "img1-src": null,
+            "img2-src": null
+        },
+        {
+            "id": 5,
+            "title": "Dining Hall Nutrition Website",
+            "subtitle": "1st Place Hackathon Project Member",
+            "description": "Description",
+            "tags": ["Tags"],
+            "thumbnail-src": null,
+            "img1-src": null,
+            "img2-src": null
+        },
+        {
+            "id": 6,
+            "title": "March Madness Predictor",
+            "subtitle": "Project Member, WSA",
+            "description": "Description",
+            "tags": ["Tags"],
+            "thumbnail-src": null,
+            "img1-src": null,
+            "img2-src": null
+        },
+        {
+            "id": 7,
+            "title": "March Madness Scorecards",
+            "subtitle": "Personal Project",
+            "description": "Description",
+            "tags": ["Tags"],
+            "thumbnail-src": null,
+            "img1-src": null,
+            "img2-src": null
+        },
+        {
+            "id": 8,
+            "title": "Policy Debate Statistics Scraper",
+            "subtitle": "Personal Project",
+            "description": "Description",
+            "tags": ["Tags"],
+            "thumbnail-src": null,
+            "img1-src": null,
+            "img2-src": null
+        },
+        {
+            "id": 9,
+            "title": "Personal Portfolio Website",
+            "subtitle": "Personal Project",
+            "description": "Description",
+            "tags": ["Tags"],
+            "thumbnail-src": null,
+            "img1-src": null,
+            "img2-src": null
+        },
+        {
+            "id": 10,
+            "title": "Computer Science Major",
+            "subtitle": "University of Michigan",
+            "description": "Description",
+            "tags": ["Tags"],
+            "thumbnail-src": null,
+            "img1-src": null,
+            "img2-src": null
+        },
+        {
+            "id": 11,
+            "title": "Interdisciplinary Physics Major",
+            "subtitle": "University of Michigan",
+            "description": "Description",
+            "tags": ["Tags"],
+            "thumbnail-src": null,
+            "img1-src": null,
+            "img2-src": null
+        }
+    ]
+}
