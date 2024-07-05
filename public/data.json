@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": 1,
-            "title": "Data Analyst Intern",
+            "title": "Data Analyst Internship",
             "subtitle": "Wilson Sporting Goods",
             "description": "As an intern at Wilson, I worked long and hard, toiling over many many hours.",
             "tags": ["Internship", "Data Science", "Python", "Machine Learning"],
@@ -33,7 +33,7 @@
         {
             "id": 4,
             "title": "QuantUM",
-            "subtitle": "Cofounder, Michigan Quantum Club",
+            "subtitle": "Cofounder, Michigan Undergraduate Quantum Club",
             "description": "Description",
             "tags": ["Tags"],
             "thumbnail_src": "./assets/images/headshot.jpg",
@@ -104,6 +104,16 @@
             "id": 11,
             "title": "Interdisciplinary Physics Major",
             "subtitle": "University of Michigan",
+            "description": "Description",
+            "tags": ["Tags"],
+            "thumbnail_src": "./assets/images/headshot.jpg",
+            "img1_src": null,
+            "img2_src": null
+        },
+        {
+            "id": 12,
+            "title": "Theoretical Physics Research",
+            "subtitle": "Quantum Science Theory Lab",
             "description": "Description",
             "tags": ["Tags"],
             "thumbnail_src": "./assets/images/headshot.jpg",
