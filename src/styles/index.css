@@ -28,3 +28,19 @@ code {
     monospace;
 }
 
+.PageTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 15px 0px 0px 40px;
+}
+
+.circular-photo {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.main-text {
+  font-size: 1rem;
+  padding: 30px;
+}

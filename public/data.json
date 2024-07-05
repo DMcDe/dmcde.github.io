@@ -6,9 +6,9 @@
             "subtitle": "Wilson Sporting Goods",
             "description": "As an intern at Wilson, I worked long and hard, toiling over many many hours.",
             "tags": ["Internship", "Data Science", "Python", "Machine Learning"],
-            "thumbnail-src": "./assets/images/Wilson-logo.svg",
-            "img1-src": "./assets/images/wilson-connected-football.png",
-            "img2-src": null
+            "thumbnail_src": "./assets/images/wilson-logo.png",
+            "img1_src": "./assets/images/wilson-connected-football.png",
+            "img2_src": null
         },
         {
             "id": 2,
@@ -16,9 +16,9 @@
             "subtitle": "Project Lead, WSA",
             "description": "Description",
             "tags": ["Tags"],
-            "thumbnail-src": null,
-            "img1-src": null,
-            "img2-src": null
+            "thumbnail_src": "./assets/images/headshot.jpg",
+            "img1_src": null,
+            "img2_src": null
         },
         {
             "id": 3,
@@ -26,9 +26,9 @@
             "subtitle": "Research Intern",
             "description": "Description",
             "tags": ["Tags"],
-            "thumbnail-src": null,
-            "img1-src": null,
-            "img2-src": null
+            "thumbnail_src": "./assets/images/headshot.jpg",
+            "img1_src": null,
+            "img2_src": null
         },
         {
             "id": 4,
@@ -36,9 +36,9 @@
             "subtitle": "Cofounder, Michigan Quantum Club",
             "description": "Description",
             "tags": ["Tags"],
-            "thumbnail-src": null,
-            "img1-src": null,
-            "img2-src": null
+            "thumbnail_src": "./assets/images/headshot.jpg",
+            "img1_src": null,
+            "img2_src": null
         },
         {
             "id": 5,
@@ -46,9 +46,9 @@
             "subtitle": "1st Place Hackathon Project Member",
             "description": "Description",
             "tags": ["Tags"],
-            "thumbnail-src": null,
-            "img1-src": null,
-            "img2-src": null
+            "thumbnail_src": "./assets/images/headshot.jpg",
+            "img1_src": null,
+            "img2_src": null
         },
         {
             "id": 6,
@@ -56,9 +56,9 @@
             "subtitle": "Project Member, WSA",
             "description": "Description",
             "tags": ["Tags"],
-            "thumbnail-src": null,
-            "img1-src": null,
-            "img2-src": null
+            "thumbnail_src": "./assets/images/headshot.jpg",
+            "img1_src": null,
+            "img2_src": null
         },
         {
             "id": 7,
@@ -66,9 +66,9 @@
             "subtitle": "Personal Project",
             "description": "Description",
             "tags": ["Tags"],
-            "thumbnail-src": null,
-            "img1-src": null,
-            "img2-src": null
+            "thumbnail_src": "./assets/images/headshot.jpg",
+            "img1_src": null,
+            "img2_src": null
         },
         {
             "id": 8,
@@ -76,9 +76,9 @@
             "subtitle": "Personal Project",
             "description": "Description",
             "tags": ["Tags"],
-            "thumbnail-src": null,
-            "img1-src": null,
-            "img2-src": null
+            "thumbnail_src": "./assets/images/headshot.jpg",
+            "img1_src": null,
+            "img2_src": null
         },
         {
             "id": 9,
@@ -86,9 +86,9 @@
             "subtitle": "Personal Project",
             "description": "Description",
             "tags": ["Tags"],
-            "thumbnail-src": null,
-            "img1-src": null,
-            "img2-src": null
+            "thumbnail_src": "./assets/images/headshot.jpg",
+            "img1_src": null,
+            "img2_src": null
         },
         {
             "id": 10,
@@ -96,9 +96,9 @@
             "subtitle": "University of Michigan",
             "description": "Description",
             "tags": ["Tags"],
-            "thumbnail-src": null,
-            "img1-src": null,
-            "img2-src": null
+            "thumbnail_src": "./assets/images/headshot.jpg",
+            "img1_src": null,
+            "img2_src": null
         },
         {
             "id": 11,
@@ -106,9 +106,9 @@
             "subtitle": "University of Michigan",
             "description": "Description",
             "tags": ["Tags"],
-            "thumbnail-src": null,
-            "img1-src": null,
-            "img2-src": null
+            "thumbnail_src": "./assets/images/headshot.jpg",
+            "img1_src": null,
+            "img2_src": null
         }
     ]
 }
