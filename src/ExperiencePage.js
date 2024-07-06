@@ -27,14 +27,11 @@ const ExperiencePage = () => {
                             }
                         });
 
-                        console.log(hasAll);
-
                         return hasAll;
 
                     } //End arrow function
                 );
             } // End if
-            console.log(projList);
             setProjects(projList);
         }
 
