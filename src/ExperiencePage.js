@@ -1,5 +1,7 @@
 import ProjectCard from "./ProjectCard";
-import { useState, useEffect } from "react";
+import { useState, useEffect, createContext } from "react";
+
+export const FilterContext = createContext({});
 
 const ExperiencePage = () => {
 
@@ -12,29 +14,42 @@ const ExperiencePage = () => {
         const getProjects = async () => {
             const data = await fetch('data.json', {headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}});
             const projs = await data.json();
+            let projList = projs.projects;
 
             if (filters.length > 0) {
-                projs.filter((proj) => {
-                    filters.forEach((tag) => {
-                        proj.tags.includes(tag);
-                    })
-                })
-            }
-            setProjects(projs.projects);
+
+                projList = (projList).filter(
+                    (proj) => {
+                        let hasAll = true;
+                        filters.forEach((tag) => {
+                            if (!proj.tags.includes(tag)) {
+                                hasAll = false;
+                            }
+                        });
+
+                        console.log(hasAll);
+
+                        return hasAll;
+
+                    } //End arrow function
+                );
+            } // End if
+            console.log(projList);
+            setProjects(projList);
         }
 
         getProjects();
     }, [filters]);
 
     return(
-        <main>
+        <FilterContext.Provider value = {{filters, setFilters}}>
             <h1 className = "PageTitle">Projects and Experience</h1>
             <div className = "ProjectGrid">
                 {projects.map((proj) => (
                     <ProjectCard projectDetails={proj} key={proj.id}/>
                 ))}
             </div>
-        </main>
+        </FilterContext.Provider>
     );
 }
 
