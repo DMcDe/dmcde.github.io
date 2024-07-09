@@ -78,7 +78,7 @@
     overflow: hidden;
 }
 
-.tag {
+.tag, .tag-clicked {
     background-color: rgb(50, 50, 50);
 
     width: fit-content;
@@ -103,6 +103,14 @@
     font-weight: 550;
     cursor: pointer;
 }
+
+.tag-clicked {
+    background-color: rgb(65, 65, 65);
+    font-weight: 550;
+    border-width: 3px;
+    border-color: black;
+}
+
 @media (max-width: 1200px) {
     .ProjectGrid {
         grid-template-columns: 1fr 1fr;

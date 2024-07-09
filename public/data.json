@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "id": 1,
+            "id": "wilson-internship",
             "title": "Data Analyst Internship",
             "subtitle": "Wilson Sporting Goods",
             "description": "As an intern at Wilson, I worked long and hard, toiling over many many hours.",
@@ -11,7 +11,7 @@
             "img2_src": null
         },
         {
-            "id": 2,
+            "id": "nfl-win-predictor",
             "title": "In-Game NFL Win Predictor",
             "subtitle": "Project Lead, WSA",
             "description": "Description",
@@ -21,7 +21,7 @@
             "img2_src": null
         },
         {
-            "id": 3,
+            "id": "chsh-simulation",
             "title": "Quantum Game Simulator",
             "subtitle": "Research Intern",
             "description": "Description",
@@ -31,7 +31,7 @@
             "img2_src": null
         },
         {
-            "id": 4,
+            "id": "quantum-club",
             "title": "QuantUM",
             "subtitle": "Cofounder, Michigan Undergraduate Quantum Club",
             "description": "Description",
@@ -41,7 +41,7 @@
             "img2_src": null
         },
         {
-            "id": 5,
+            "id": "nutristat",
             "title": "Dining Hall Nutrition Website",
             "subtitle": "1st Place Hackathon Project Member",
             "description": "Description",
@@ -51,7 +51,7 @@
             "img2_src": null
         },
         {
-            "id": 6,
+            "id": "march-madness-predictor",
             "title": "March Madness Predictor",
             "subtitle": "Project Member, WSA",
             "description": "Description",
@@ -61,7 +61,7 @@
             "img2_src": null
         },
         {
-            "id": 7,
+            "id": "march-madness-scorecards",
             "title": "March Madness Scorecards",
             "subtitle": "Personal Project",
             "description": "Description",
@@ -71,7 +71,7 @@
             "img2_src": null
         },
         {
-            "id": 8,
+            "id": "debate-scraper",
             "title": "Policy Debate Statistics Scraper",
             "subtitle": "Personal Project",
             "description": "Description",
@@ -81,7 +81,7 @@
             "img2_src": null
         },
         {
-            "id": 9,
+            "id": "personal-website",
             "title": "Personal Portfolio Website",
             "subtitle": "Personal Project",
             "description": "Description",
@@ -91,7 +91,7 @@
             "img2_src": null
         },
         {
-            "id": 10,
+            "id": "cs-major",
             "title": "Computer Science Major",
             "subtitle": "University of Michigan",
             "description": "Description",
@@ -101,7 +101,7 @@
             "img2_src": null
         },
         {
-            "id": 11,
+            "id": "physics-major",
             "title": "Interdisciplinary Physics Major",
             "subtitle": "University of Michigan",
             "description": "Description",
@@ -111,7 +111,7 @@
             "img2_src": null
         },
         {
-            "id": 12,
+            "id": "physics-research",
             "title": "Theoretical Physics Research",
             "subtitle": "Quantum Science Theory Lab",
             "description": "Description",

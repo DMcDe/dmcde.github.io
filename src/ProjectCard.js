@@ -1,10 +1,14 @@
 import Tag from "./Tag";
+import { useNavigate } from "react-router-dom";
 
 const ProjectCard = ({projectDetails}) => {
     const thumbnail = require(`${projectDetails.thumbnail_src}`);
 
+    const nav = useNavigate();
+    const navProject = () => nav(`${projectDetails.id}`);
+
     return(
-    <div className = "project-card">
+    <div className = "project-card" onClick = {navProject}>
         <div className = "card-photo">
             <img className = "thumbnail" src= {thumbnail} alt="Project Thumbnail" /> 
         </div>
