@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import { useState, useEffect, createContext } from "react";
 
-export const FilterContext = createContext({});
+export const ProjectContext = createContext({});
 
 const ExperiencePage = () => {
 
@@ -39,14 +39,14 @@ const ExperiencePage = () => {
     }, [filters]);
 
     return(
-        <FilterContext.Provider value = {{filters, setFilters}}>
+        <ProjectContext.Provider value = {{filters, setFilters}}>
             <h1 className = "PageTitle">Projects and Experience</h1>
             <div className = "ProjectGrid">
                 {projects.map((proj) => (
                     <ProjectCard projectDetails={proj} key={proj.id}/>
                 ))}
             </div>
-        </FilterContext.Provider>
+        </ProjectContext.Provider>
     );
 }
 

@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { FilterContext } from "./ExperiencePage";
+import { ProjectContext } from "./ExperiencePage";
 
 const Tag = ({tagText}) => {
-    const {filters, setFilters} = useContext(FilterContext);
+    const {filters, setFilters} = useContext(ProjectContext);
 
     return(
         <div className = {filters.includes(tagText) ? "tag-clicked" : "tag"} onClick = {(e) => {

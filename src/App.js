@@ -14,7 +14,7 @@ function App() {
 
         <Route path = "experience">
           <Route index element = {<ExperiencePage />} />
-          <Route path = ":proj" element = {<ProjectPage />} />
+          <Route path = ":projid" element = {<ProjectPage />} />
         </Route>
 
         <Route path = "*" element = {<BadLink />} />
