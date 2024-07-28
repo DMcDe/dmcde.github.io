@@ -20,7 +20,7 @@ body {
 }
 
 main {
-  padding: 120px 20px;
+  padding: 120px 60px;
 }
 
 code {
@@ -31,7 +31,13 @@ code {
 .PageTitle {
   font-size: 2rem;
   font-weight: bold;
-  margin: 135px 0px 0px 61px;
+  margin: 10px 0px;
+}
+
+.PageSubtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0px;
 }
 
 .circular-photo {
@@ -42,5 +48,4 @@ code {
 
 .main-text {
   font-size: 1rem;
-  padding: 30px;
 }

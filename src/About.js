@@ -6,7 +6,7 @@ const About = () => {
             <div className="about-photo">
                 <img className="circular-photo" src = {headshot} alt = "Headshot" />
             </div>
-            <div className="main-text">
+            <div className="about-text">
                 <p style={{fontSize: "1.5rem", fontWeight: "bold"}}>Welcome!</p>
 
                 <p>I’m David, a junior studying Computer Science and Interdisciplinary Physics with a concentration in Quantum Computing at the University of Michigan.</p>

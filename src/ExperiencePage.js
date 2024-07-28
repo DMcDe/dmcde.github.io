@@ -40,12 +40,14 @@ const ExperiencePage = () => {
 
     return(
         <ProjectContext.Provider value = {{filters, setFilters}}>
-            <h1 className = "PageTitle">Projects and Experience</h1>
-            <div className = "ProjectGrid">
-                {projects.map((proj) => (
-                    <ProjectCard projectDetails={proj} key={proj.id}/>
-                ))}
-            </div>
+            <main>
+                <h1 className = "PageTitle">Projects and Experience</h1>
+                <div className = "ProjectGrid">
+                    {projects.map((proj) => (
+                        <ProjectCard projectDetails={proj} key={proj.id}/>
+                    ))}
+                </div>
+            </main>
         </ProjectContext.Provider>
     );
 }

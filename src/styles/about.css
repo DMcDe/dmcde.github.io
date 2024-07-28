@@ -5,7 +5,6 @@
     bottom: 0;
 
     margin: auto;
-    padding: 60px;
 
     display: flex;
     align-items: center;
@@ -14,6 +13,11 @@
 .about-photo {
     padding: 20px;
     min-width: 200px;
+}
+
+.about-text {
+    padding: 30px;
+    font-size: 1rem;
 }
 
 @media (max-width: 700px) {
