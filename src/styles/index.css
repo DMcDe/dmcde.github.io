@@ -46,6 +46,13 @@ code {
   border-radius: 50%;
 }
 
+.rectangular-photo {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 3px;
+  object-fit: contain;
+}
+
 .main-text {
   font-size: 1rem;
 }

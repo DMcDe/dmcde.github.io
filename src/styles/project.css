@@ -1,0 +1,22 @@
+/* Project Page */
+.Project {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-description {
+    flex: 1;
+    padding: 5px 30px 5px 10px;
+    min-width: 300px;
+}
+.project-photo-col {
+    display: flex;
+    flex-direction: column;
+    flex: .35;
+    min-width: 50px;
+}
+
+.project-photo {
+    padding: 3px;
+}
+
