@@ -31,14 +31,14 @@ const ProjectPage = () => {
                 <div className="Project">
                     <div className="project-description">
                         {(project.description).map(p => (<DescriptionParagraph paragraph={p} key={p}/>))}
-                        {/* <p className = "main-text">{project.description}</p> */}
                     </div>
                     <div className="project-photo-col">
                         <div className="project-photo">
-                            <img className="rectangular-photo" src={require(`${project.img1_src}`)} alt = 'Primary' />
+                            {project.img1_src && <img className="rectangular-photo" src={require(`${project.img1_src}`)} alt = 'Primary' />}
+                            {!project.img1_src && <div>NO IMAGE SET</div>}
                         </div>
                         <div className="project-photo">
-                            <img className="rectangular-photo" src={require(`${project.thumbnail_src}`)} alt = 'Secondary' />
+                            {project.img2_src && <img className="rectangular-photo" src={require(`${project.img2_src}`)} alt = 'Secondary' />}
                         </div>
                     </div>
                 </div>

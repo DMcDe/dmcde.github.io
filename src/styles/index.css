@@ -28,6 +28,22 @@ code {
     monospace;
 }
 
+a {
+  color:bisque;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:active {
+  color:beige;
+}
+
+a:visited {
+  color: burlywood;
+}
+
 .PageTitle {
   font-size: 2rem;
   font-weight: bold;
