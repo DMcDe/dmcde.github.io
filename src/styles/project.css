@@ -12,11 +12,17 @@
 .project-photo-col {
     display: flex;
     flex-direction: column;
-    flex: .35;
+    flex: .5;
     min-width: 50px;
 }
 
 .project-photo {
     padding: 3px;
+}
+
+.caption {
+    margin: 0px;
+    color: lightgray;
+    font-size: .9rem;
 }
 

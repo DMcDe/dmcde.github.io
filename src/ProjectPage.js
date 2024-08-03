@@ -35,10 +35,11 @@ const ProjectPage = () => {
                     <div className="project-photo-col">
                         <div className="project-photo">
                             {project.img1_src && <img className="rectangular-photo" src={require(`${project.img1_src}`)} alt = 'Primary' />}
-                            {!project.img1_src && <div>NO IMAGE SET</div>}
+                            {project.img1_cap && <p className="caption">{project.img1_cap}</p>}
                         </div>
                         <div className="project-photo">
                             {project.img2_src && <img className="rectangular-photo" src={require(`${project.img2_src}`)} alt = 'Secondary' />}
+                            {project.img2_cap && <p className="caption">{project.img2_cap}</p>}
                         </div>
                     </div>
                 </div>

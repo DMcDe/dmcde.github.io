@@ -12,7 +12,9 @@
             "tags": ["Internship", "Data Science", "Python", "Machine Learning", "Pandas", "scikit-learn", "Excel"],
             "thumbnail_src": "./assets/images/wilson-logo.png",
             "img1_src": "./assets/images/wilson-connected-football.png",
-            "img2_src": null
+            "img1_cap": "An inside look at the Connected Football.",
+            "img2_src": null,
+            "img2_cap": null
         },
         {
             "id": "nfl-win-predictor",
@@ -22,9 +24,11 @@
                             "My goal in leading the project was to create a model that was understandable and designed with intention. While I had worked on multiple projects that utilized machine learning and neural networks to predict outcomes, I was interested in making something that wasn’t a black box, where I was directly involved in the formulation of the decision making process. I found this process uniquely engaging; strategizing what mathematical functions best produced the given output and testing and revising along the way was a puzzle unlike any other.",
                             "Our finished model is not only able to generate an expected win probability for an NFL team given any opponent and in-game situation, but is also able to calculate how that win probability changes with key strategic decisions. By comparing the expected points for a team after kicking a field goal versus attempting to reach a first down, for example, the model is able to identify which option leads to the highest likelihood of winning the game, and is a valuable tool for guiding and validating coaching decisions."],
             "tags": ["Tags"],
-            "thumbnail_src": "./assets/images/headshot.jpg",
+            "thumbnail_src": "./assets/images/WSA-logo.png",
             "img1_src": null,
-            "img2_src": null
+            "img1_cap": null,
+            "img2_src": null,
+            "img2_cap": null
         },
         {
             "id": "chsh-simulation",
@@ -38,7 +42,9 @@
             "tags": ["Tags"],
             "thumbnail_src": "./assets/images/headshot.jpg",
             "img1_src": null,
-            "img2_src": null
+            "img1_cap": null,
+            "img2_src": null,
+            "img2_cap": null
         },
         {
             "id": "quantum-club",
@@ -49,9 +55,11 @@
                             "Leading the club has also been incredibly rewarding. Bringing those who are already interested and aware of quantum technologies together has been just as impactful as introducing newcomers and sparking organic curiosity around the field. I am excited to see the quantum community grow at Michigan and know it will last far into the future.",
                             "The club has also benefited from support and <a href=\"https://ece.engin.umich.edu/stories/new-quant-um-organization-empowers-undergrads-interested-in-quantum-science-and-technology\" target=\"_blank\">publicity</a> from Michigan ECE, for which I am incredibly grateful."],
             "tags": ["Tags"],
-            "thumbnail_src": "./assets/images/headshot.jpg",
+            "thumbnail_src": "./assets/images/quantum-logo.png",
             "img1_src": null,
-            "img2_src": null
+            "img1_cap": null,
+            "img2_src": null,
+            "img2_cap": null
         },
         {
             "id": "nutristat",
@@ -63,8 +71,10 @@
                             "The experience was truly rewarding: I loved the grind and hustle of trying to finish as much as possible with the clock ticking, and I grew closer to my friends and teammates as a result. It taught me about the importance of communication and collaboration and gave me hands-on experience building a product as a team using tools for codesharing and task management. As validation of my team’s effort, our project was awarded first place out of all entries by a panel of judges."],
             "tags": ["Tags"],
             "thumbnail_src": "./assets/images/headshot.jpg",
-            "img1_src": null,
-            "img2_src": null
+            "img1_src": "./assets/images/nutristat-score-graphic.png",
+            "img1_cap": "An example of a food score icon.",
+            "img2_src": null,
+            "img2_cap": null
         },
         {
             "id": "march-madness-predictor",
@@ -76,9 +86,11 @@
                             "Using TensorFlow, we created a deep neural network that used the statistics I had scraped to assign a power ranking to each team in the tournament. After backtesting on previous tournaments, we entered our model into ESPN’s 2023 tournament challenge, where it ranked in the top 80th percentile of over 20 million bracket entries worldwide.",
                             "You can read more about the project on <a href=\"https://www.wolverinesportsanalytics.com/projects/march-madness\" target=\"_blank\">WSA’s website</a>."],
             "tags": ["Tags"],
-            "thumbnail_src": "./assets/images/headshot.jpg",
+            "thumbnail_src": "./assets/images/WSA-logo.png",
             "img1_src": null,
-            "img2_src": null
+            "img1_cap": null,
+            "img2_src": null,
+            "img2_cap": null
         },
         {
             "id": "march-madness-scorecards",
@@ -91,8 +103,10 @@
                             "The code for the project, which I hope to update in preparation for the upcoming tournament, can be found on <a href=\"https://github.com/DMcDe/march-madness-scorecards\" target=\"_blank\">Github</a>. I programmed using the Spyder IDE in an Anaconda environment."],
             "tags": ["Tags"],
             "thumbnail_src": "./assets/images/headshot.jpg",
-            "img1_src": null,
-            "img2_src": null
+            "img1_src": "./assets/images/march-madness-scorecard.png",
+            "img1_cap": "An example scorecard from the 2024 tournament.",
+            "img2_src": null,
+            "img2_cap": null
         },
         {
             "id": "debate-scraper",
@@ -103,8 +117,10 @@
                             "The tool I created automated a process that had previously been completed manually by a coach, taking valuable time away from argument and strategy development. This streamlined the entire team’s preparation and had valuable returns throughout the season. Creating the program also gave me experience using MySQL for database management, Pandas for splicing and organizing data of interest, and BeautifulSoup for web scraping."],
             "tags": ["Tags"],
             "thumbnail_src": "./assets/images/headshot.jpg",
-            "img1_src": null,
-            "img2_src": null
+            "img1_src": "./assets/images/debate-stats-table.png",
+            "img1_cap": "A table with aggregated team statistics.",
+            "img2_src": null,
+            "img2_cap": null
         },
         {
             "id": "personal-website",
@@ -116,7 +132,9 @@
             "tags": ["Tags"],
             "thumbnail_src": "./assets/images/headshot.jpg",
             "img1_src": null,
-            "img2_src": null
+            "img1_cap": null,
+            "img2_src": null,
+            "img2_cap": null
         },
         {
             "id": "cs-major",
@@ -128,9 +146,11 @@
                             "Other courses I have taken or am currently enrolled in cover Computer Architecture (including simulating hardware components like linkers and pipelined processors in C), Web Systems, Cryptography, and Cybersecurity.",
                             "My time as a CS student has also introduced me to many amazing, intelligent peers and professors who are eager and interested in discussing and collaborating on programming projects, always willing to share their inspiring backgrounds and professional experience, and constantly building and devising new products and ideas that blow me away with their novelty and ingenuity. I have no doubt that the students and mentors I have met will continue to influence me long after my undergraduate studies have ended."],
             "tags": ["Tags"],
-            "thumbnail_src": "./assets/images/headshot.jpg",
+            "thumbnail_src": "./assets/images/block-m.png",
             "img1_src": null,
-            "img2_src": null
+            "img1_cap": null,
+            "img2_src": null,
+            "img2_cap": null
         },
         {
             "id": "physics-major",
@@ -140,9 +160,11 @@
                             "My courses for the major have spanned math, science, and technology. Through Honors Multivariable Calculus and Methods of Theoretical Physics, I have covered topics like differential equations, Fourier transforms, and multivariate integration. In core physics courses like Honors Physics III and Modern Physics, I have been introduced to quantum mechanics, particle physics, thermodynamics, and more. I have applied these skills directly in advanced lectures like Quantum Nanotechnology, demonstrating the translation from theory to engineering.",
                             "Beyond classes, my interest in physics has opened the door to many valuable experiences, including developing quantum games in Python, participating in a quantum science research group, and attending the Quantum+Chips summer program, where I learned about semiconductor development and quantum computing through lectures from experts in both academia and industry as well as through lab tours, clean room tours, and company visits."],
             "tags": ["Tags"],
-            "thumbnail_src": "./assets/images/headshot.jpg",
+            "thumbnail_src": "./assets/images/block-m.png",
             "img1_src": null,
-            "img2_src": null
+            "img1_cap": null,
+            "img2_src": null,
+            "img2_cap": null
         },
         {
             "id": "physics-research",
@@ -154,7 +176,9 @@
             "tags": ["Tags"],
             "thumbnail_src": "./assets/images/headshot.jpg",
             "img1_src": null,
-            "img2_src": null
+            "img1_cap": null,
+            "img2_src": null,
+            "img2_cap": null
         }
     ]
 }
