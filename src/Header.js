@@ -16,7 +16,13 @@ const Header = () => {
                 <div className="header-button" onClick={navHome}>ABOUT</div>
                 <div className="header-button" onClick={navExp}>EXPERIENCE</div>
                 <div className="header-button" onClick={navWSA}>WRITING</div>
-                <div className="header-button">LINKS</div>
+                <div className="dropdown">
+                    <>LINKS</>
+                    <div className="dropdown-links">
+                        <a href="https://www.linkedin.com/in/dmcde/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://github.com/DMcDe" target="_blank" rel = "noopener noreferrer">GitHub</a>
+                    </div>
+                </div>
             </div>
         </header>
     )
