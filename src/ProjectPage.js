@@ -32,7 +32,7 @@ const ProjectPage = () => {
                     <div className="project-description">
                         {(project.description).map(p => (<DescriptionParagraph paragraph={p} key={p}/>))}
                     </div>
-                    <div className="project-photo-col">
+                    {project.img1_src && <div className="project-photo-col">
                         <div className="project-photo">
                             {project.img1_src && <img className="rectangular-photo" src={require(`${project.img1_src}`)} alt = 'Primary' />}
                             {project.img1_cap && <p className="caption">{project.img1_cap}</p>}
@@ -41,7 +41,7 @@ const ProjectPage = () => {
                             {project.img2_src && <img className="rectangular-photo" src={require(`${project.img2_src}`)} alt = 'Secondary' />}
                             {project.img2_cap && <p className="caption">{project.img2_cap}</p>}
                         </div>
-                    </div>
+                    </div>}
                 </div>
 
                 <div>
