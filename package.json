@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
-  "homepage": "https://dmcde.github.io/personal-website",
+  "homepage": "https://dmcde.github.io",
   "private": true,
   "dependencies": {
     "react": "^18.3.1",
