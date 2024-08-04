@@ -1,4 +1,4 @@
-import Tag from "./Tag";
+import CardTag from "./CardTag";
 import { useNavigate } from "react-router-dom";
 
 const ProjectCard = ({projectDetails}) => {
@@ -15,7 +15,7 @@ const ProjectCard = ({projectDetails}) => {
         <div className = "card-title">{projectDetails.title}</div>
         <div className = "card-subtitle">{projectDetails.subtitle}</div>
         <div className = "card-tags">
-            {(projectDetails.tags).map(tag => (<Tag tagText={tag} key={tag}/>))}
+            {(projectDetails.tags).map(tag => (<CardTag tagText={tag} key={tag}/>))}
         </div>
     </div>
     );

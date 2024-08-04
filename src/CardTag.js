@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { ProjectContext } from "./ExperiencePage";
 
-const Tag = ({tagText}) => {
+const CardTag = ({tagText}) => {
     const {filters, setFilters} = useContext(ProjectContext);
 
     return(
@@ -18,4 +18,4 @@ const Tag = ({tagText}) => {
     );
 }
 
-export default Tag;
+export default CardTag;

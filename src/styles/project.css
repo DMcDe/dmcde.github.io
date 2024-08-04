@@ -26,3 +26,29 @@
     font-size: .9rem;
 }
 
+.page-tag {
+    background-color: rgb(60, 60, 60);
+
+    width: fit-content;
+    min-height: 2rem;
+    line-height: 2rem;
+
+    padding: 2px 10px;
+    margin: 5px;
+
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.75);
+    border-style: solid;
+
+    font-weight: 500;
+}
+
+.page-tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-tags:hover {
+    cursor: default;
+}

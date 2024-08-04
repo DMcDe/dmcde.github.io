@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import DescriptionParagraph from "./DescriptionParagraph";
+import PageTag from "./PageTag";
 
 const ProjectPage = () => {
     const {projid} = useParams();
@@ -44,8 +45,8 @@ const ProjectPage = () => {
                     </div>}
                 </div>
 
-                <div>
-                    {project.tags}
+                <div className = "page-tags">
+                    {(project.tags).map(tag => (<PageTag tagText={tag} key={tag}/>))}
                 </div>
             </>}
             {!project && <>
