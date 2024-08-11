@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.521bcd40.css",
-    "main.js": "/static/js/main.6c7c1553.js",
+    "main.css": "/static/css/main.6bbab019.css",
+    "main.js": "/static/js/main.d6ad1d25.js",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
     "static/media/march-madness-scorecard.png": "/static/media/march-madness-scorecard.4aa4a43ab814765ad915.png",
     "static/media/wilson-connected-football.png": "/static/media/wilson-connected-football.be1a127a8c3974a1901a.png",
@@ -21,11 +21,11 @@
     "static/media/qiskit-logo.png": "/static/media/qiskit-logo.e5dec7ba78a7b3c6f5d0.png",
     "static/media/debate-clipart.webp": "/static/media/debate-clipart.8931217d40c75213a569.webp",
     "index.html": "/index.html",
-    "main.521bcd40.css.map": "/static/css/main.521bcd40.css.map",
-    "main.6c7c1553.js.map": "/static/js/main.6c7c1553.js.map"
+    "main.6bbab019.css.map": "/static/css/main.6bbab019.css.map",
+    "main.d6ad1d25.js.map": "/static/js/main.d6ad1d25.js.map"
   },
   "entrypoints": [
-    "static/css/main.521bcd40.css",
-    "static/js/main.6c7c1553.js"
+    "static/css/main.6bbab019.css",
+    "static/js/main.d6ad1d25.js"
   ]
 }
