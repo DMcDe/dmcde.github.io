@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.6bbab019.css",
-    "main.js": "/static/js/main.d6ad1d25.js",
+    "main.js": "/static/js/main.87da42a6.js",
+    "static/media/wilson-hq.jpg": "/static/media/wilson-hq.ee4831503cb9d99b261c.jpg",
+    "static/media/pure-escape-room.jpg": "/static/media/pure-escape-room.ec4537b6a83944383b0d.jpg",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
     "static/media/march-madness-scorecard.png": "/static/media/march-madness-scorecard.4aa4a43ab814765ad915.png",
     "static/media/wilson-connected-football.png": "/static/media/wilson-connected-football.be1a127a8c3974a1901a.png",
     "static/media/hackathon.png": "/static/media/hackathon.8b7ab88e2943b672bb4a.png",
+    "static/media/headshot.jpg": "/static/media/headshot.35286af74ae478995b49.jpg",
     "static/media/react-logo.png": "/static/media/react-logo.69c749dde34bf3561674.png",
     "static/media/quantum-clipart.png": "/static/media/quantum-clipart.1798dcf60408512fb061.png",
     "static/media/march-madness-predictor-bracket.png": "/static/media/march-madness-predictor-bracket.1716e2ed109c2fce8f51.png",
     "static/media/debate-stats-table.png": "/static/media/debate-stats-table.d5770c1412b71ce966c4.png",
     "static/media/WSA-logo.png": "/static/media/WSA-logo.560b45f5d12b05d39e79.png",
+    "static/media/pure-flashblade.png": "/static/media/pure-flashblade.15881f3d6b1f9de23f30.png",
     "static/media/march-madness-logo.png": "/static/media/march-madness-logo.8042a249afa5091fa1fb.png",
-    "static/media/headshot.jpg": "/static/media/headshot.8f2c675088d0e1cb1d25.jpg",
-    "static/media/quantum-logo.png": "/static/media/quantum-logo.32d3c0de0b0982832b99.png",
     "static/media/nutristat-score-graphic.png": "/static/media/nutristat-score-graphic.90ad92ab7c5487d12a4e.png",
     "static/media/nutrition-clipart.png": "/static/media/nutrition-clipart.7e48ace468728e0deb82.png",
     "static/media/wilson-logo.png": "/static/media/wilson-logo.3cff2fa5ec144da0c5ee.png",
@@ -21,11 +23,12 @@
     "static/media/qiskit-logo.png": "/static/media/qiskit-logo.e5dec7ba78a7b3c6f5d0.png",
     "static/media/debate-clipart.webp": "/static/media/debate-clipart.8931217d40c75213a569.webp",
     "index.html": "/index.html",
+    "static/media/pure-logo.svg": "/static/media/pure-logo.c24983c90a02856991f0.svg",
     "main.6bbab019.css.map": "/static/css/main.6bbab019.css.map",
-    "main.d6ad1d25.js.map": "/static/js/main.d6ad1d25.js.map"
+    "main.87da42a6.js.map": "/static/js/main.87da42a6.js.map"
   },
   "entrypoints": [
     "static/css/main.6bbab019.css",
-    "static/js/main.d6ad1d25.js"
+    "static/js/main.87da42a6.js"
   ]
 }
