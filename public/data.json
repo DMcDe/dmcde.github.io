@@ -1,6 +1,22 @@
 {
     "projects": [
         {
+            "id": "pure-internship",
+            "title": "Software Engineer Internship",
+            "subtitle": "Pure Storage",
+            "description": ["I spent my final summer of college in Santa Clara, interning at Pure Storage as a Software Engineer. As a member of the FlashBlade Security team, I was immersed in topics from network access management to threat modeling and protocols from NFS to LDAP.", 
+                            "My project focused on providing proactive security enhancements for customers based on their devices’ configurations and access patterns. Working alongside one other intern, I built a new feature from scratch, starting in an empty repository that was eventually integrated into Pure’s production codebase.", 
+                            "A central aspect of my work was ensuring that the security tool ran efficiently and transparently, smoothly integrating with the operating system without affecting the performance of the other programs running on the device. Accomplishing this provided many learning opportunities, such as mastering Python’s asyncio package to avoid bottlenecks from network I/O and researching Linux services to ensure our tool was resilient to failure and ran automatically, without customer management. I was lucky to be included in system design decisions from the start, providing valuable experience weighing tradeoffs between ease of implementation, resource efficiency, and user experience when developing a new product.", 
+                            "Beyond my work on the security team, my internship at Pure was highlighted by conversations and interactions with engineers and executives across the company. From one-on-one conversations with senior software developers to coffee chats with our founder and other company leaders, I gained indispensable insights on the research and development process, the challenges and rewards of software development, and the lessons and takeaways of building a tech company from a small startup into a leading competitor in its industry.", 
+                            "The summer spurred my growth as both an engineer and as a person. Through applied project work, I enhanced my proficiency in languages like Python and Java, practiced important software development skills like code review and version control, and became comfortable with new tools like IntelliJ and Jenkins. Through discussions and adventures with peers and colleagues, I discovered insights into independence, motivation, and purpose that will remain with me for the rest of my life."],
+            "tags": ["Internship", "Software Engineer", "Python", "Java", "IntelliJ", "File Systems", "Security", "Concurrency"],
+            "thumbnail_src": "./assets/images/pure-logo.svg",
+            "img1_src": "./assets/images/pure-flashblade.png",
+            "img1_cap": "Pure Storage's FlashBlade.",
+            "img2_src": "./assets/images/pure-escape-room.jpg",
+            "img2_cap": "Pure's intern class on a trip to San Francisco."
+        },
+        {
             "id": "wilson-internship",
             "title": "Data Analyst Internship",
             "subtitle": "Wilson Sporting Goods",
@@ -13,8 +29,8 @@
             "thumbnail_src": "./assets/images/wilson-logo.png",
             "img1_src": "./assets/images/wilson-connected-football.png",
             "img1_cap": "An inside look at the Connected Football.",
-            "img2_src": null,
-            "img2_cap": null
+            "img2_src": "./assets/images/wilson-hq.jpg",
+            "img2_cap": "My final day at Wilson HQ."
         },
         {
             "id": "chsh-simulation",
@@ -33,13 +49,28 @@
             "img2_cap": null
         },
         {
+            "id": "482-ia",
+            "title": "Instructional Aide",
+            "subtitle": "EECS 482 (Operating Systems)",
+            "description": ["During my Junior year at Michigan, I served as a Grader for EECS 376 (Foundations of Computer Science) and EECS 475 (Cryptography), reviewing and commenting on students’ homework submissions and clarifying concepts in response to student questions.",
+                            "As a Senior, I’m transitioning to being an Instructional Aide for EECS 482 (Operating Systems). As an IA, I host office hours multiple times a week, providing students with help on projects like writing a user-level thread library and implementing a network file server. I also answer students’ questions on Piazza – an online forum for class discussion – explaining fundamental concepts like virtualization, concurrency, and persistent storage.",
+                            "My project had two stages. In the first, I created an interactive version of the game run in a Python notebook. This version was an educational tool; it provided an introduction to quantum science for someone with no background knowledge whatsoever, explaining the basic principles being used and then walking them through the game itself and allowing them to try different strategies, demonstrating – not just telling – the advantage of quantum strategies.",
+                            "After taking EECS 482 myself and falling in love with the course, I am beyond excited to share my passion for systems development with other students like myself, and to pass on the amazing instruction I received from IAs to future enrollees in the class."],
+            "tags": ["Operating Systems", "Concurrency", "File Systems", "C++", "Teaching"],
+            "thumbnail_src": "./assets/images/block-m.png",
+            "img1_src": null,
+            "img1_cap": null,
+            "img2_src": null,
+            "img2_cap": null
+        },
+        {
             "id": "quantum-club",
             "title": "QuantUM",
             "subtitle": "Cofounder, Michigan Undergraduate Quantum Club",
             "description": ["In order to share my passion for quantum computing with other undergraduates and to build a community for those interested in quantum science, I co-founded Michigan’s first and only club focused on quantum science and technology, QuantUM. To establish a firm foundation for the club, I contacted Michigan’s Electrical and Computer Engineering department, who agreed to sponsor the club as an official university organization, and reached out to peers and professors to help lead and advise QuantUM.",
                             "Starting QuantUM has taught me lessons about leadership, organization, marketing, and community-building. Serving as a founding member of the executive board has involved planning club meetings, contacting experts from both inside and outside the university to speak to our members, conducting outreach and advertising to build awareness of our mission on campus, and managing budgets and facilities; it has helped me understand what makes a team successful and how to meet people where they are to create buy-in and excitement around your goals and endeavors.",
                             "Leading the club has also been incredibly rewarding. Bringing those who are already interested and aware of quantum technologies together has been just as impactful as introducing newcomers and sparking organic curiosity around the field. I am excited to see the quantum community grow at Michigan and know it will last far into the future.",
-                            "The club has also benefited from support and <a href=\"https://ece.engin.umich.edu/stories/new-quant-um-organization-empowers-undergrads-interested-in-quantum-science-and-technology\" target=\"_blank\">publicity</a> from Michigan ECE, for which I am incredibly grateful."],
+                            "Highlights of my time as President have included organizing a <a href=\"https://sites.google.com/umich.edu/quantum/highlights/2024-fall-hackathon?authuser=0\" target=\"_blank\">hackathon</a> as an official IBM Qiskit Fall Fest event and hosting a bimonthly speaker series featuring researchers from across the midwest. The club has also benefited from support and <a href=\"https://ece.engin.umich.edu/stories/new-quant-um-organization-empowers-undergrads-interested-in-quantum-science-and-technology\" target=\"_blank\">publicity</a> from Michigan ECE, for which I am incredibly grateful."],
             "tags": ["Physics", "Quantum Computing", "Qiskit", "Leadership", "Fundraising"],
             "thumbnail_src": "./assets/images/quantum-logo.png",
             "img1_src": null,
@@ -126,9 +157,9 @@
             "id": "physics-research",
             "title": "Theoretical Physics Research",
             "subtitle": "Quantum Science Theory Lab",
-            "description": ["Beginning my sophomore year, I have been working with the University of Michigan’s Quantum Science Theory Lab, led by Dr. Mack Kira. The group performs theoretical research in quantum science, focusing on quantum optics and spectroscopy.",
-                            "I participate in the lab’s weekly meetings, where graduate students and postgraduate researchers share updates on the progress they have made. I have also had the privilege of learning from bright minds that are pursuing groundbreaking research in quantum optics with applications in emerging technology, including discussing my fellow group members’ research one-on-one, asking questions of Dr. Kira and the other students, and gaining an inside view into the research process and the challenges and opportunities it entails.",
-                            "My experience with the group has prepared me for pursuing academic research later in my life, whether in a PhD program, at an academic institution, or as an innovator in industry or at a leading firm."],
+            "description": ["During my sophomore year, I worked with the University of Michigan’s Quantum Science Theory Lab, led by Dr. Mack Kira. The group performs theoretical research in quantum science, focusing on quantum optics and spectroscopy.",
+                            "I participated in the lab’s weekly meetings, where graduate students and postgraduate researchers shared updates on the progress they have made. I had the privilege of learning from bright minds that are pursuing groundbreaking research in quantum optics with applications in emerging technology, including discussing my fellow group members’ research one-on-one, asking questions of Dr. Kira and the other students, and gaining an inside view into the research process and the challenges and opportunities it entails.",
+                            "My experience with the group prepared me for pursuing academic research later in my life, whether in a PhD program, at an academic institution, or as an innovator in industry or at a leading firm."],
             "tags": ["Research", "Physics", "Quantum Computing", "Math"],
             "thumbnail_src": "./assets/images/quantum-clipart.png",
             "img1_src": null,
