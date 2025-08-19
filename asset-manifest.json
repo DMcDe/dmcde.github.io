@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6bbab019.css",
-    "main.js": "/static/js/main.87da42a6.js",
+    "main.js": "/static/js/main.6eeaece5.js",
     "static/media/wilson-hq.jpg": "/static/media/wilson-hq.ee4831503cb9d99b261c.jpg",
     "static/media/pure-escape-room.jpg": "/static/media/pure-escape-room.ec4537b6a83944383b0d.jpg",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
@@ -25,10 +25,10 @@
     "index.html": "/index.html",
     "static/media/pure-logo.svg": "/static/media/pure-logo.c24983c90a02856991f0.svg",
     "main.6bbab019.css.map": "/static/css/main.6bbab019.css.map",
-    "main.87da42a6.js.map": "/static/js/main.87da42a6.js.map"
+    "main.6eeaece5.js.map": "/static/js/main.6eeaece5.js.map"
   },
   "entrypoints": [
     "static/css/main.6bbab019.css",
-    "static/js/main.87da42a6.js"
+    "static/js/main.6eeaece5.js"
   ]
 }
