@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.6bbab019.css",
-    "main.js": "/static/js/main.1fde92ce.js",
+    "main.js": "/static/js/main.7ae7ed54.js",
     "static/media/wilson-hq.jpg": "/static/media/wilson-hq.ee4831503cb9d99b261c.jpg",
     "static/media/pure-escape-room.jpg": "/static/media/pure-escape-room.ec4537b6a83944383b0d.jpg",
     "static/media/prepack-poster.jpg": "/static/media/prepack-poster.2be30405c056604ac674.jpg",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
+    "static/media/base-interns.PNG": "/static/media/base-interns.2a23c664dcbe19b3a407.PNG",
     "static/media/march-madness-scorecard.png": "/static/media/march-madness-scorecard.4aa4a43ab814765ad915.png",
     "static/media/wilson-connected-football.png": "/static/media/wilson-connected-football.be1a127a8c3974a1901a.png",
     "static/media/hackathon.png": "/static/media/hackathon.8b7ab88e2943b672bb4a.png",
@@ -28,10 +29,10 @@
     "index.html": "/index.html",
     "static/media/pure-logo.svg": "/static/media/pure-logo.c24983c90a02856991f0.svg",
     "main.6bbab019.css.map": "/static/css/main.6bbab019.css.map",
-    "main.1fde92ce.js.map": "/static/js/main.1fde92ce.js.map"
+    "main.7ae7ed54.js.map": "/static/js/main.7ae7ed54.js.map"
   },
   "entrypoints": [
     "static/css/main.6bbab019.css",
-    "static/js/main.1fde92ce.js"
+    "static/js/main.7ae7ed54.js"
   ]
 }

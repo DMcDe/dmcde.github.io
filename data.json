@@ -10,8 +10,8 @@
                             "My time at Base also reinforced my passion for emerging energy technology. I had been introduced to grid optimization research barely a month prior, by <a href=\"https://midas.umich.edu/events/aiir-symposium-2026-schedule/#:~:text=AI%2DDriven%20optimization,by%20Rabab%20Haider\" target=\"_blank\">a talk</a> at Michigan’s AI in Research Symposium. I discovered Base when digging further into distributed energy resources in early April, and reached out to a recruiter to request a last-minute interview for a summer internship. During my internship, my belief that the grid is in need of fundamental reform only grew. I am now determined to continue creating innovative energy solutions, and excited to contribute to a resilient energy future."],
             "tags": ["Internship", "Software Engineer", "Golang", "AI", "Startup", "Energy", "Distributed Systems", "Kubernetes"],
             "thumbnail_src": "./assets/images/base-logo.svg",
-            "img1_src": null,
-            "img1_cap": null,
+            "img1_src": "./assets/images/base-interns.PNG",
+            "img1_cap": "Base's 2026 summer intern class, with CEO Zach Dell and COO Justin Lopas.",
             "img2_src": null,
             "img2_cap": null
         },
