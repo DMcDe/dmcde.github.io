@@ -21,6 +21,8 @@ const Header = () => {
                     <div className="dropdown-links">
                         <a href="https://www.linkedin.com/in/dmcde/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                         <a href="https://github.com/DMcDe" target="_blank" rel = "noopener noreferrer">GitHub</a>
+                        <a href="https://www.fox2detroit.com/video/1310151" target="_blank" rel = "noopener noreferrer">Football 1</a>
+                        <a href="https://youtu.be/gYZ2230ZVqo?si=Ufkz46JAB7uEn7OO&t=120" target="_blank" rel = "noopener noreferrer">Football 2</a>
                     </div>
                 </div>
             </div>
